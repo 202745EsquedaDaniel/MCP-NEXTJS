@@ -7,3 +7,6 @@ node scripts/test-client.mjs
 abrir copilot:
 add HTTP mcp
 https://mcp-nextjs-rho.vercel.app/mcp
+
+que curso me recomienda 00lar corp?
+
