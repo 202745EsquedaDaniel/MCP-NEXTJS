@@ -35,6 +35,7 @@ const handler = createMcpHandler(server => {
     streamableHttpEndpoint: "/mcp",
     verboseLogs: true,
     maxDuration: 60,
-})
+}
+);
 
 export { handler as GET, handler as POST, handler as DELETE}
