@@ -108,7 +108,7 @@ export default function Home() {
     ];
 
     // Algoritmo de recomendación basado en los datos del usuario
-    let scoredCourses = allCourses.map(course => {
+    const scoredCourses = allCourses.map(course => {
       let score = 0;
       
       // Basado en experiencia
