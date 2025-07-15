@@ -27,6 +27,11 @@ export interface Course {
   image: string;
 }
 
+/**
+ * Renders the main course recommendation page, allowing users to submit their information and receive personalized course suggestions.
+ *
+ * Displays a welcome message and conditionally renders either the user input form or the recommended courses based on user interaction.
+ */
 export default function Home() {
   const [userData, setUserData] = useState<UserData | null>(null);
   const [recommendations, setRecommendations] = useState<Course[]>([]);
